@@ -84,3 +84,5 @@ s = sorted(people.items(), key=lambda k: (k[1][0], k[1][1], k[1][2]))
 print(s[-1][0])
 print(s[0][0])
 ```
+
+`key=lambda k: (k[1][0], k[1][1], k[1][2])`에서 `k[0]`에 해당 되는값은 `key`이고, `k[1]`에 해당되는 값은 `value`이다. 정렬 우선 순위를 `year -> month -> day`로 하기 위해서 차래대로 `k[1][0]`, `k[1][1]`, `k[1][2]`를 넘겨주었다.
