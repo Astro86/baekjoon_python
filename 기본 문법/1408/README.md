@@ -44,6 +44,8 @@ print(make2word(start_hour - cnt_hour) + ":" +
       make2word(start_secode - cnt_second))
 ```
 
+[python 표준 출력](https://wikidocs.net/20403)
+
 ## 채움 문자를 이용한 출력 방법
 ```python
 cnt_hour, cnt_minute, cnt_second = list(map(int, input().split(':')))
