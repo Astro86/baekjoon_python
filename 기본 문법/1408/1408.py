@@ -13,13 +13,6 @@ if(start_hour < cnt_hour):
     start_hour += 24
 
 
-def make2word(value):
-    if(0 <= value <= 9):
-        return '0'+str(value)
-    else:
-        return str(value)
-
-
 h = start_hour - cnt_hour
 m = start_minute - cnt_minute
 s = start_secode - cnt_second
